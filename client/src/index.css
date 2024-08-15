@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  height: 40%;
+  width: 40%;
+  grid-template-columns: repeat(2, 1fr);
+}
